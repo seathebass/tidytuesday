@@ -68,4 +68,5 @@ plots <- p1 /
   p2 +
   plot_annotation(title = "Exploring the Student Loan Crisis",
                           theme = theme(title = element_text(face = "bold")))
+
 ggsave("tidy_tuesday_submission.jpg",plots)
